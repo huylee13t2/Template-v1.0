@@ -1,0 +1,19 @@
+<div class="chat view">
+    <div class="container">
+        <div class="chatRoom">
+            <header>
+                <h3>Chat</h3>
+            </header>
+
+            <div class="row"></div>
+            <ul id="messages"></ul>
+            <span id="notifyUser"></span>
+            <form id="form" action="" onsubmit="return submitfunction();" >
+                <label>Input Your Name:</label>
+                <input type="text" placeholder="Name" id="user" value="" />
+                <input type="text" id="m" autocomplete="off" onkeyup="notifyTyping();" placeholder="Type yor message here.." />
+                <input type="submit" id="button" class="btn btn-success" value="Send"/>
+            </form>
+        </div>
+    </div>
+</div>
